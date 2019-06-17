@@ -6,26 +6,31 @@ import sys
 os.system("clear && clear && clear")
 
 menu = '''\033[0m
-    {1}--Home
-    {2}--Desktop
-    {3}--Downloads
-    {4}--Crips
-    {5}--HiddenEye 
-    {6}--Install & Update
-    {7}--Comming soon
-    {0}--Comming soon
-    {99}-Exit                                                                                                                   
+  	 {1}--Home					~~ Home directory
+   	 {2}--Desktop					~~ Desktop directory
+   	 {3}--Downloads					~~ Download directory
+  	 {4}--Crips					~~ Launch Crips
+   	 {5}--HiddenEye 				~~ Launch HiddenEye
+   	 {6}--Install & Update				~~ Install & Update
+       	 {7}--Comming soon				~~
+       	 {8}--Comming soon				~~
+       	 {9}--Comming soon				~~
+    	 {0}--Comming soon				~~
+   	 {99--Exit                                                                                                                  
  '''
 
 logo = '''\033[0m 
-  _______   _____  ___   ____  ____   ________  ________  _______  
- /" _   "| (\"   \|"  \ ("  _||_ " | /"       )/"       )/"     "| 
-(: ( \___) |.\\   \    ||   (  ) : |(:   \___/(:   \___/(: ______) 
- \/ \      |: \.   \\  |(:  |  | . ) \___  \   \___  \   \/    |   
- //  \ ___ |.  \    \. | \\ \__/ //   __/  \\   __/  \\  // ___)_  
-(:   _(  _||    \    \ | /\\ __ //\  /" \   :) /" \   :)(:      "| 
- \_______)  \___|\____\)(__________)(_______/ (_______/  \_______) 
-                                                                   
+      =======================================================================
+
+	.88b  d88. d88888b d8b   db db    db  	db     .d88b.      .d88b.  
+	88'YbdP`88 88'     888o  88 88    88 	o88    .8P  88.    .8P  88. 
+	88  88  88 88ooooo 88V8o 88 88    88 	 88    88  d'88    88  d'88 
+	88  88  88 88~~~~~ 88 V8o88 88    88 	 88    88 d' 88    88 d' 88 
+	88  88  88 88.     88  V888 88b  d88 	 88 db `88  d8' db `88  d8' 
+	YP  YP  YP Y88888P VP   V8P ~Y8888P' 	 VP VP  `Y88P'  VP  `Y88P'  
+
+      =============================== By Gnusse =============================                                   
+                                                            
 '''
 
 print logo
@@ -58,10 +63,6 @@ def  select():
     elif choice == 3:
 	print("3")
 	quit()
- 
-    elif choice == 0:
-	print("0")
-	quit()
 
     elif choice == 4:
 	print("4")
@@ -80,6 +81,20 @@ def  select():
 
     elif choice == 7:
 	print("7")
+	quit()
+
+    elif choice == 8:
+	print("8")
+	quit()
+
+
+    elif choice == 9:
+	print("9")
+	quit()
+
+
+    elif choice == 0:
+	print("0")
 	quit()
 
   except(KeyboardInterrupt):
