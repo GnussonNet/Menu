@@ -62,9 +62,9 @@ def  select():
     elif choice == 6:
 	  os.system("clear")
 	  print("This tool is only available for Linux and similar systems  ")
-	  os.system("git clone https://github.com/GnussonNet/Menu.git")
-	  os.system("cd Menu && sudo bash ./update.sh")
-	  os.system("Menu")
+	  os.system("git clone https://github.com/GnussonNet/MyMenu.git")
+	  os.system("cd MyMenu && sudo bash ./update.sh")
+	  os.system("menu")
 
     elif choice == 7:
 	print("7")
