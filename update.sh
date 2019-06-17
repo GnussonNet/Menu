@@ -22,7 +22,7 @@ sudo chmod +x /usr/share/doc
 
 clear
 
-sudo rm -rf /usr/share/doc/Menu/
+sudo rm -rf /usr/share/doc/MyMenu/
 
 clear
 
@@ -42,11 +42,11 @@ cd Gnusse
 
 clear
 
-git clone https://github.com/GnussonNet/Menu.git
+git clone https://github.com/GnussonNet/MyMenu.git
 
 clear
 
-cd Menu
+cd MyMenu
 
 clear
 
