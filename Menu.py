@@ -11,7 +11,7 @@ menu = '''\033[0m
     {3}--Downloads
     {4}--Crips
     {5}--HiddenEye 
-    {6}--Comming soon
+    {6}--Install & Update
     {7}--Comming soon
     {0}--Comming soon
     {99}-Exit                                                                                                                   
@@ -60,8 +60,11 @@ def  select():
 	quit()
 
     elif choice == 6:
-	print("6")
-	quit()
+	  os.system("clear")
+	  print("This tool is only available for Linux and similar systems  ")
+	  os.system("git clone https://github.com/GnussonNet/Menu.git")
+	  os.system("cd Menu && sudo bash ./update.sh")
+	  os.system("Menu")
 
     elif choice == 7:
 	print("7")

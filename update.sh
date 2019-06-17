@@ -42,7 +42,7 @@ cd Gnusse
 
 clear
 
-git clone https://github.com/GnussonNet/menu.git
+git clone https://github.com/GnussonNet/Menu.git
 
 clear
 
